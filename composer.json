@@ -1,7 +1,7 @@
 {
     "name": "xiag/json-command-bundle",
     "license": "GPL-2.0",
-    "description": "The base package for xiag/json-command",
+    "description": "Symfony 2 bundle to xiag/json-command",
     "autoload": {
         "psr-4": {
             "Xiag\\JsonCommandBundle\\": "src/"
