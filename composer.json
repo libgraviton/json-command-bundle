@@ -11,7 +11,7 @@
         "php": ">=5.4",
         "xiag/json-command": "~0.0.1",
         "symfony/framework-bundle": "~2.6",
-        "jms/serializer-bundle": "~1.0.0"
+        "jms/serializer-bundle": ">=1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0"
