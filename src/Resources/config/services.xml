@@ -20,6 +20,9 @@
             <argument type="collection">
                 <argument>-type=general</argument>
             </argument>
+            <argument type="collection">
+                <argument key="TZ">UTC</argument>
+            </argument>
         </service>
         -->
     </services>
