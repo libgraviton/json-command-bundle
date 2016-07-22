@@ -9,7 +9,7 @@
     },
     "require": {
         "php": ">=5.4",
-        "xiag/json-command": "~0.0.1",
+        "xiag/json-command": "~0.1.0",
         "symfony/framework-bundle": "~2.6",
         "jms/serializer-bundle": ">=1.0"
     },
