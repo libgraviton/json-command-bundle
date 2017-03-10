@@ -10,7 +10,7 @@
     "require": {
         "php": ">=5.4",
         "xiag/json-command": "~0.1.0",
-        "symfony/framework-bundle": "~2.6",
+        "symfony/framework-bundle": "~2.7 || ^3.0",
         "jms/serializer-bundle": ">=1.0"
     },
     "require-dev": {
