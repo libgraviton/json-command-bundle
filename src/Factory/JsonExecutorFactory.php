@@ -1,8 +1,8 @@
 <?php
-namespace Xiag\JsonCommandBundle\Factory;
+namespace Graviton\JsonCommandBundle\Factory;
 
 use JMS\Serializer\SerializerInterface;
-use Xiag\JsonCommand\Executor\JsonCommandExecutor;
+use Graviton\JsonCommand\Executor\JsonCommandExecutor;
 
 /**
  * Factory
