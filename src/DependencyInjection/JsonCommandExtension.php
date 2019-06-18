@@ -1,5 +1,5 @@
 <?php
-namespace Xiag\JsonCommandBundle\DependencyInjection;
+namespace Graviton\JsonCommandBundle\DependencyInjection;
 
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -9,7 +9,7 @@ use Symfony\Component\Config\FileLocator;
 /**
  * Extension
  */
-class XiagJsonCommandExtension extends Extension
+class JsonCommandExtension extends Extension
 {
     /**
      * @inheritdoc

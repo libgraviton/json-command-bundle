@@ -1,7 +1,7 @@
-XiagJsonCommandBundle
+GravitonJsonCommandBundle
 =====================
 
-Symfony 2 bundle to the [xiag/json-command](https://github.com/xiag-ag/json-command).
+Symfony bundle to the [graviton/json-command](https://github.com/libgraviton/json-command).
 
 Installation
 ============
@@ -12,13 +12,13 @@ Step 1: Download the Bundle
 Run
 
 ```bash
-composer require xiag/json-command-bundle
+composer require graviton/json-command-bundle
 ```
 
 or add to your `composer.json`
 
 ```json
-"xiag/json-command-bundle": "*",
+"graviton/json-command-bundle": "*",
 ```
 
 
@@ -36,7 +36,7 @@ class AppKernel extends Kernel
     {
         $bundles = [
             // ...
-            new \Xiag\JsonCommandBundle\XiagJsonCommandBundle(),
+            new \Graviton\JsonCommandBundle\JsonCommandBundle(),
         ];
 
         // ...
@@ -52,8 +52,8 @@ How to use
 Register new service:
 ```xml
 <!-- app/config/services.xml -->
-<service id="my.node.executor" class="%xiag.json_command.jsonexecutor.class%">
-    <factory service="xiag.json_command.jsonexecutor.factory" method="createJsonExecutor"/>
+<service id="my.node.executor" class="%graviton.json_command.jsonexecutor.class%">
+    <factory service="graviton.json_command.jsonexecutor.factory" method="createJsonExecutor"/>
     <argument>node</argument>
     <argument>array</argument>
     <argument type="collection">

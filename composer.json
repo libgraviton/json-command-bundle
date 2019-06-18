@@ -1,19 +1,19 @@
 {
-    "name": "xiag/json-command-bundle",
-    "license": "GPL-2.0",
-    "description": "Symfony 2 bundle to xiag/json-command",
+    "name": "graviton/json-command-bundle",
+    "license": "MIT",
+    "description": "Symfony bundle to graviton/json-command",
     "autoload": {
         "psr-4": {
-            "Xiag\\JsonCommandBundle\\": "src/"
+            "Graviton\\JsonCommandBundle\\": "src/"
         }
     },
     "require": {
-        "php": ">=5.4",
-        "xiag/json-command": "~0.1.0",
-        "symfony/framework-bundle": "~2.7 || ^3.0",
+        "php": ">=7.3",
+        "graviton/json-command": "~1",
+        "symfony/framework-bundle": ">=4.3.0",
         "jms/serializer-bundle": ">=1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0"
+        "phpunit/phpunit": "@stable"
     }
 }
