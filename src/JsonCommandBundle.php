@@ -6,6 +6,6 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 /**
  * Bundle
  */
-class GravitonJsonCommandBundle extends Bundle
+class JsonCommandBundle extends Bundle
 {
 }
